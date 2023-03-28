@@ -1,0 +1,107 @@
+<html>
+    <link rel="stylesheet" href="shoppingcart/design.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+/* Button Styles */
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid white;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#button-7 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-7 a {
+  position: relative;
+  left: 0;
+  transition: all .35s ease-Out;
+}
+
+#dub-arrow {
+  width: 100%;
+  height: 100%;
+  background: #EEE2DC;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .35s ease-Out;
+  bottom: 0;
+}
+
+#button-7 img {
+  width: 20px;
+  height: auto;
+}
+
+#button-7:hover #dub-arrow {
+  left: 0;
+}
+
+#button-7:hover a {
+  left: 150px;
+}
+
+@media screen and (min-width:1000px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  #container {
+    width: 50%;
+  }
+}
+
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Labrada:wght@600&display=swap" rel="stylesheet">
+    <body style="background-image: url(ok.gif);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;">
+        <div class="featured">
+          <div style="position: absolute;
+          top: 15%;
+          left: 37%;">
+            <h2 style="color:#EEE2DC;font-size:130px;-webkit-text-stroke: 1px #AC3B61;font-family: 'Labrada', serif;text-align: center;">Phases</h2>
+          </div>
+          <div style="position: absolute;
+          top: 50%;
+          left: 42%;">
+            <p style="color:white;font-size:25px;font-weight:bold;font-family: 'Satisfy', cursive;text-align: center;">Aesthetic Phone Accessories</p>
+          </div>
+            <div onclick="location.href='Signin.php';" class="button" id="button-7" style="text-align: center;left: 44%;position: absolute;
+            top: 58%;
+            left: 44%;">
+                <div id="dub-arrow"><img src="arrow.png" alt="Arrow" /></div>
+                <a href="Signin.php">Sign in/Login</a>
+              </div>
+        </div>
+    </body>
+</html>
