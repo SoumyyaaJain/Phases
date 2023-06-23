@@ -1,4 +1,3 @@
-<img width="1434" alt="image" src="https://github.com/SoumyyaaJain/Phases/assets/92438532/c2432f1c-e221-4d7d-80cd-694d5a693290"># Phases
 It is an e-commerce site for phone cases.
 
 Some points to remember before opening the file:
