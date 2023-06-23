@@ -10,6 +10,8 @@ Some XXAMP settings which are required:
 
 <img width="174" alt="image" src="https://github.com/SoumyyaaJain/Phases/assets/92438532/0931c5b3-b57c-4c08-a11d-64e67b81fe91">
 
+<center>Database Structure</center>
+
 <img width="1066" alt="image" src="https://github.com/SoumyyaaJain/Phases/assets/92438532/0bab9e5f-169b-4a88-9d38-d2b2d2758d57">
 'users' table structure under 'project'
 
